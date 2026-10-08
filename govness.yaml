@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "cl-servicios-digitales.grant-application-triage"
+name: "Grant application triage"
+type: "workflow"
+version: "0.3.0"
+summary: "Checks grant applications for completeness and routes them to the right evaluation committee."
+description: "A workflow that reads an application, checks the mandatory annexes and proposes a committee. A person always confirms the routing."
+publisher:
+  environment: "cl-servicios-digitales"
+  body: "Oficina de Servicios Digitales del Estado"
+languages: ["es"]
+license: "Apache-2.0"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/grant-application-triage"
+domains: ["public-finance"]
